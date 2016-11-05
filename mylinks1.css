@@ -1,0 +1,19 @@
+body {
+	background-color: black;
+	color: white;
+}
+h1 {text-align: center;
+}
+	a {
+		color: white;
+}
+nav ul { list-style-type: none;
+}
+nav a:link { color: red;
+}
+nav a:visited { color: gray;
+}
+nav a:hover { color: yellow;
+			  background-color: red;
+			  text-decoration: none;
+}
