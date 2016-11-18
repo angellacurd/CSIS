@@ -6,7 +6,8 @@
 </head>
 <body>
 <h1>Music Survey</h1>
-<form action="https://www.markmurtha.com/csis128/readform.asp">
+<form method="post"
+action="https://www.markmurtha.com/csis128/readform.asp">
 <br>
 <label>Name: <input type="text" name="myname" id="myname" required="required">
 <label>E-mail: <input type="text" name="email" id="email" required="required">
@@ -51,11 +52,9 @@ Locations where you listen to music:
 What role does music play in your life?<br>
 <textarea name="role" id="role" cols="60" rows="3"></textarea>
 <br>
-<input button="submit">
-<img src="submit.jpg" width="20" height="10"</button>
-<input button="reset">
-<img src="reset.jpg" width="20" height="10"</button>
+<input id="mysubmit" type="submit" value="submit"> <input id="myreset" type="reset" value="reset">
 <br>
+</form>
 <h3>Angella Curd</h3>
 <a href="mailto:S0898274@STUDENT.MCCKC.edu">S0898274@STUDENT.MCCKC.edu</a>
 </body>
