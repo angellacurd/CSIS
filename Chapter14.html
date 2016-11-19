@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Chapter14</title>
+	<meta charset="utf-8">
+<link rel= "stylesheet" type="text/css" href="Chapter14.css"/>
+<script>
+function validate-Form() {
+if (document.forms[0].Name.value == "") {
+	alert(Name: field cannot be empty.");
+	return false;
+} // end if
+if (document.forms[0].Email Address. == "") {
+	alert(Email Address: field cannot be empty.";
+	return false;
+} // end if
+alert("Name and Email Address are valid.");
+return true;
+} // end function validate-Form
+</script>
+</head>
+<body>
+<h1>Java Script - Validated Form</h1>
+<form method="post"
+	action="http://www.markmurtha.com/csis128/readform.asp"
+	onsubmit="return validate form();">
+	Name: <input type="text">
+	<br>
+	Email Address: <input type="text">
+<br>
+<input id="mySignUp" type="submit" value="Sign Up Now">
+</form>
+</body>
+</html>
