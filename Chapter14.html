@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Chapter14</title>
+<style>
+input { display: block;
+		margin-bottom: 1em;
+}
+label { float: left;
+		width: 5em;
+		padding-right: 1em;
+		text-align: right;
+}
+#submit { margin-left: 7em; }
+</style>
+	<script type="text/javascript">
+	
+	function checkforblank() {
+
+		if (document.getElementById('userName').value ==  {
+			errormessage += "Please enter your name \n";
+			document.getElementById('userName').style.borderColor = "red";
+			}
+			
+		if (document.getElementById('userEmail').value == "") {
+			errormessage += "Please enter your email address \n";
+			document.getElementById('userEmail').style.borderColor = "red";
+			}
+		
+		if (errormessage != "") {
+			alert(errormessage);
+			return false;
+			}
+		}
+	
+		
+	</script>
+	
+</head>
+<body>
+	<h1>Java Script - Validated Form</h1>
+		<form method="post" action="http://www.markmurtha.com/csis128/readform.asp" onsubmit="return checkforblank();" >
+		Name:<input type="text" name="userName" id="userName">
+		<br>
+		Email:<input type="text" name="userEmail" id="userEmail">
+		<br>
+		<input id="submit" type="submit" value="Sign Up Now">
+	</form>
+</body>
+</html>
