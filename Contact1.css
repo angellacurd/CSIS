@@ -10,6 +10,7 @@ a: link {color: #FF6633;
 }
 aside { float: right;
 	width: 175px;
+	padding: 10px;
 }
 main { font-family: Verdana, Helvetica, sans-serif;
 	text-align: center;
