@@ -20,10 +20,6 @@ body{
 	font-weight: bold;
 	padding: 10px;
 }
-#nav_wrapper a{
-	color: white;
-	text-decoration: none;
-}
 #nav_wrapper ul li:hover{
 	background: #999999;
 	transition:all 0.45s;
