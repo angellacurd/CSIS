@@ -13,16 +13,6 @@ body{
 	background-image: url("Fargo1.jpg");
 	background-size: cover;
 }
-#nav_wrapper{
-	height: 100px;
-	width: 1000px;
-	background: #CCCCCC;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 1px;
-	opacity: 0.8;
-	filter:alpha (opacity=80); /*IE8 earlier */
-}
 #nav_wrapper ul li {
 	list-style: none;
 	display: inline;
@@ -30,7 +20,7 @@ body{
 	padding: 10px;
 }
 #nav_wrapper a{
-	color: FF6633;
+	color: white;
 	text-decoration: none;
 }
 #nav_wrapper ul li:hover{
