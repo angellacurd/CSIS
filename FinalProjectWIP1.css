@@ -4,7 +4,6 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	opacity: 0.5
-	position: fixed;
 	top: 0;
 	width: 100%;
 }
@@ -18,8 +17,8 @@ li a {
 	color: #FFFFFF;
 	text-align: center;
 	padding: 14px 16px
-	text-decoration: none;
 }
+
 .active {
 	background-color: #FF6633;
 }
