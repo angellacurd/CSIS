@@ -4,7 +4,15 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	opacity: 0.5
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
+
+li {
+	float: left;
+}
+
 li a {
 	display: block;
 	color: #FFFFFF;
@@ -12,6 +20,10 @@ li a {
 	padding: 14px 16px
 	text-decoration: none;
 }
+.active {
+	background-color: #FF6633;
+}
+
 /*Change the link color on hover */
 li a:hover {
 	background-color: #555;
