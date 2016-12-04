@@ -1,15 +1,21 @@
 body{
 	font-family: arial, sans-serif;
-	text-align: center;
 }
 #nav{
-	width:700px;
-	height: 200px;
-	opacity: 0.5:
+	width: 100%;
+	height: 400px;
+	background: url(Fargo1.jpg);
+	background-size: cover;
 }
 #nav_wrapper{
 	height: 100px;
-	width: 550px;
+	width: 700px;
+	background: #FF6600;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	opacity: 0.8;
+	filter:alpha (opacity=80); /*IE8 earlier */
 }
 #nav_wrapper ul li {
 	list-style: none;
@@ -20,47 +26,8 @@ body{
 #nav_wrapper a{
 	color: white;
 	text-decoration: none;
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	opacity: 0.5
-	top: 0;
-	width: 100%;
 }
-
-li {
-	float: left;
+#nav_wrapper ul li:hover{
+	background: #FFFFFF;
+	transition:all 0.45s;
 }
-
-li a {
-	display: block;
-	color: #FFFFFF;
-	text-align: center;
-	padding: 14px 16px
-}
-
-.active {
-	background-color: #FF6633;
-}
-
-/*Change the link color on hover */
-li a:hover {
-	background-color: #555;
-	color: white;
-}
-body { 	background-image: url(Fargo1.jpg) ; 
-			background-repeat: no-repeat;
-			margin-left: auto;
-			margin-right: auto;
-			width: 0px;
-			height: 0px; 
-			padding-top: 20px;
-			}
-h1 { 	color: #ffffff;
-		color: rgba(255, 255, 255, 0.7);
-		font-family: Verdana, Helvetica, sans-serif;
-		font-size: 2em;
-		padding-right: 10px;
-		text-align: center }
