@@ -1,3 +1,25 @@
+body{
+	font-family: arial, sans-serif;
+	text-align: center;
+}
+#nav{
+	width:700px;
+	height: 200px;
+	opacity: 0.5:
+}
+#nav_wrapper{
+	height: 100px;
+	width: 550px;
+}
+#nav_wrapper ul li {
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+	padding: 10px;
+}
+#nav_wrapper a{
+	color: white;
+	text-decoration: none;
 ul {
 	list-style-type: none;
 	margin: 0;
