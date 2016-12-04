@@ -6,8 +6,10 @@ h1{ color: #FFFFFF;
 	font-size: 2em;
 	text-align: center;
 }
+a: link {color: #FF6633;
+}
 aside { float: right;
-	width: 200px;
+	width: 175px;
 }
 main { margin 0 210px 0 160px;
 	padding: 1px 10px 20px 10px;
@@ -15,10 +17,9 @@ main { margin 0 210px 0 160px;
 .news { color: #000000;
 	text-align: center;
 }
-img { float: center;
-}
 body{
 	font-family: arial, sans-serif;
+	font-size: bold;
 }
 #nav_wrapper ul li {
 	list-style: none;
