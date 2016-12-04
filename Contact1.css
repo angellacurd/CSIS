@@ -14,6 +14,8 @@ aside { float: right;
 main { font-family: Verdana, Helvetica, sans-serif;
 	text-align: center;
 }
+ul { text-align: center;
+}
 .news { color: #000000;
 	text-align: center;
 }
