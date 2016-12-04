@@ -5,8 +5,7 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	width: 150px;
-	background-color: #FFFFFF;
+	opacity: 0.5
 	height: 100%; /*Full height */
 	position: fixed; /*Make it stick, even on scroll */
 	overflow: auto; /*Enable scrolling if the sidenov has too much content */
@@ -30,8 +29,8 @@ body { 	background-image: url(Fargo1.jpg) ;
 			background-repeat: no-repeat;
 			margin-left: auto;
 			margin-right: auto;
-			width: 600px;
-			height: 480px; 
+			width: 2048px;
+			height: 1536px; 
 			padding-top: 20px;
 			padding-right: 150px;
 }
