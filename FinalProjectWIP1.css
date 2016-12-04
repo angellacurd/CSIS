@@ -1,3 +1,9 @@
+h1{ 	color: #FFFFFF;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 2em;
+	padding-right: 10px;
+	text-align: center;
+}
 body{
 	font-family: arial, sans-serif;
 }
