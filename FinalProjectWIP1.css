@@ -17,19 +17,14 @@ li a:hover {
 	background-color: #555;
 	color: white;
 }
-.active {
-	background-color: #FF9966:
-	color: white;
-}
 body { 	background-image: url(Fargo1.jpg) ; 
 			background-repeat: no-repeat;
 			margin-left: auto;
 			margin-right: auto;
-			width: 600px;
-			height: 400px; 
+			width: 0px;
+			height: 0px; 
 			padding-top: 20px;
-			padding-right: 150px;
-}
+			}
 h1 { 	color: #ffffff;
 		color: rgba(255, 255, 255, 0.7);
 		font-family: Verdana, Helvetica, sans-serif;
