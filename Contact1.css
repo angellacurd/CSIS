@@ -11,8 +11,7 @@ a: link {color: #FF6633;
 aside { float: right;
 	width: 200px;
 	padding: 20px;
-	font-size:bold;
-}
+	}
 main { font-family: Verdana, Helvetica, sans-serif;
 	text-align: center;
 }
