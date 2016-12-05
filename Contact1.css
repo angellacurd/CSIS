@@ -22,10 +22,6 @@ ul { text-align: center;
 .news { color: #000000;
 	text-align: center;
 }
-body{
-	font-family: arial, sans-serif;
-	font-size: bold;
-}
 #nav_wrapper ul li {
 	list-style: none;
 	display: inline;
