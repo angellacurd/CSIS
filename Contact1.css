@@ -20,7 +20,7 @@ aside { float: right;
 	padding: 20px;
 	}
 form { font-family: Verdana, Helvetica, sans-serif;
-	margin: 20;
+	margin: 0 auto;
 	width: 5px;
 }
 ul { text-align: center;
