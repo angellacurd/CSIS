@@ -19,6 +19,8 @@ aside { float: right;
 	width: 0 1.5%;
 	width: 30%;
 	padding: 20px;
+}
+table { border:3px groove #FF6600;
 	border-radius: 5px;
 }
 form { font-family: Verdana, Helvetica, sans-serif;
