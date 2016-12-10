@@ -2,9 +2,11 @@
 if(isset($_POST['email'])) {
      
     // CHANGE THE TWO LINES BELOW
-    $email_to = "you@yourdomain.com";
+    $email_to = "tylercurd99@yahoo.com";
+    $email_to = "angellacurd@yahoo.com";
+    $email_to = "mcurd@jacksongov.org";
      
-    $email_subject = "website html form submissions";
+    $email_subject = "Tyler Curd Inquiry";
      
      
     function died($error) {
