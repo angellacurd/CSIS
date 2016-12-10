@@ -20,10 +20,10 @@ table { border: 3px groove #FF6600;
 	border-radius: 5px;
 }
 form { font-family: Verdana, Helvetica, sans-serif;
-	margin: 0 1.5%;
-	width: 50%;
+	margin: 50;
+	width: 40px;
 	float: left;
-	padding: 75px;
+	padding: 70px;
 }
 ul { text-align: center;
 	list-style-type: none;
