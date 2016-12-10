@@ -17,6 +17,8 @@ main { font-family: Verdana, Helvetica, sans-serif;
 ul { text-align: center;
 	list-style-type: none;
 }
+p {float: left;
+}
 .news { color: #000000;
 	text-align: center;
 }
