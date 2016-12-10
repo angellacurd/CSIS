@@ -24,7 +24,9 @@ body{
 	text-decoration: none;
 }
 table { margin: auto;
-		border:3px groove #0066CC; }
+		border:3px groove #FF6600;
+		border-radius: 5px;
+}
 th {background-color: #CCCCCC; }
 h3 {text-align: center;
 }
