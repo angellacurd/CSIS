@@ -37,21 +37,8 @@
 		</div>
 	</div>
 <aside role="complementary">
-	<h2>Email address</h2>
-	<h3>Tyler's Email</h3>
-		<p class="news"><a href="mailto:tylercurd99@yahoo.com">tylercurd99@yahoo.com</a></p>
-	<h3>Mother's Email</h3>
-		<p class="news">Angella Curd at: <a href="mailto:angellacurd@yahoo.com">angellacurd@yahoo.com</a></p>
-	<h3>Father's Email</h3>
-		<p class="news">Mark Curd at: <a href="mailto:mcurd@jacksongov.org">mcurd@jacksongov.org</a></p>
-</aside>
-	
-<main role="main" id="content">
-<img src="family.jpg" width="300" height="250" alt="Family"><br>
-	<h2>Address</h2>
-	<p>1802 SE Royal Street<br><br>Oak Grove, Missouri 64075</p>
-	<br>
-<table border="2">
+	<h2>Contact</h2>
+	<table border="2">
 	<tr>
 		<th>Contact</th>
 		<th>Phone Number</th>
@@ -69,20 +56,65 @@
 		<td>(816) 726-6358</td>
 	</tr>
 	</table>
-<br>
-</main>
-<form action="contact.php" method="post">
-	Your name:<br>
-	<input type="text" name="cf_name">
-<br>
-	Your e-mail:<br>
-	<input type="text" name="cf_email">
-<br>
-	Message:<br>
-	<textarea name="cf_message"><br>
-	<input id="mysubmit" type="submit" value="submit"> <input id="myreset" type="reset" value="reset">
-		</form>	
+</aside>
 	
+<main role="main" id="content">
+<img src="family.jpg" width="300" height="250" alt="Family"><br>
+	
+<form name="htmlform" method="post" action="html_form_send.php">
+<table width="450px">
+</tr>
+<tr>
+ <td valign="top">
+  <label for="first_name">First Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top"">
+  <label for="last_name">Last Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">Email Address *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone">Telephone Number</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments">Comments *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+ 
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit">   ( <a href="http://www.freecontactform.com/html_form.php">HTML Form</a> )
+ </td>
+</tr>
+</table>
+</form>
+
 	       
 <!--JS-->
 
