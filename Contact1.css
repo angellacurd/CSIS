@@ -6,13 +6,15 @@ h1{ color: #FFFFFF;
 	font-size: 2em;
 	text-align: center;
 }
+h3 { text-align: center;
+}
 a: link {color: #FF6633;
 }
 aside { float: right;
 	width: 400px;
-	padding: 50px;
+	padding: 200px;
 	}
-main { font-family: Verdana, Helvetica, sans-serif;
+form { font-family: Verdana, Helvetica, sans-serif;
 	text-align: center;
 }
 ul { text-align: center;
@@ -35,4 +37,6 @@ ul { text-align: center;
 #nav_wrapper a{
 	color: white;
 	text-decoration: none;
+}
+image { display: center;
 }
