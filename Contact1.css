@@ -20,6 +20,8 @@ aside { float: right;
 	padding: 20px;
 	}
 form { font-family: Verdana, Helvetica, sans-serif;
+	margin: 0 auto;
+	width: 250px
 }
 ul { text-align: center;
 	list-style-type: none;
