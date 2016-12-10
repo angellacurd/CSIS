@@ -13,11 +13,10 @@ aside { float: right;
 	padding: 20px;
 	}
 main { font-family: Verdana, Helvetica, sans-serif;
+	text-align: center;
 }
 ul { text-align: center;
 	list-style-type: none;
-}
-p {float: left;
 }
 .news { color: #000000;
 	text-align: center;
