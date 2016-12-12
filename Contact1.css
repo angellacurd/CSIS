@@ -11,11 +11,6 @@ h1{ color: #FFFFFF;
 	font-size: 2em;
 	text-align: center;
 }
-/* Note: Make HTML 5 elements block-level for consistent styling */
-header, nav, article, footer, address { display:block;}
-
-*/ Sections P/
-header, nav, article, footer, address {width:100%; clear:both; }
 aside { float: right;
 	width: 0 1.5%;
 	width: 50%;
