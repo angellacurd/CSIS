@@ -11,7 +11,8 @@ h1{ 	color: #FFFFFF;
 #footer{ 	
 	list-style: none;
 	display: inline;
-	padding: 70px;
+	padding: 70px;			
+	font-weight: bold;
 	font-family: Verdana, Helvetica, sans-serif;
 }
 #nav{
