@@ -23,12 +23,12 @@ aside { float: right;
 }
 table { border: 3px groove #FF6600;
 	border-radius: 5px;
+	float: left;
 }
 form { font-family: Verdana, Helvetica, sans-serif;
 	margin-left: 40;
 	width: 20px;
 	padding: 30px;
-	float: left;
 }
 ul { text-align: center;
 	list-style-type: none;
