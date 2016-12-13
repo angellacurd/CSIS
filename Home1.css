@@ -8,9 +8,9 @@ h1{ 	color: #FFFFFF;
 	text-align: center;
 	background: #000000;
 }
-#nav1{	width: 60%;
+#footer{ width: 100%;
 }
-#nav_wrapper1 ul li {
+#footer_wrapper ul li {
 	list-style: none;
 	display: inline;
 	padding: 0 1%;
