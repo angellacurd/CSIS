@@ -14,7 +14,8 @@ footer_wrapper ul li {
 	list-style: none;
 	display: inline;
 	padding: 0 1%;
-	vertical-align:middle
+	vertical-align:middle;
+	font-family: Verdana, Helvetica, sans-serif;
 }
 #nav{
 	width: 100%;
