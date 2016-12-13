@@ -9,8 +9,6 @@ h1{ 	color: #FFFFFF;
 	background: #000000;
 }
 footer{ width: 100%;
-}
-footer_wrapper ul li {
 	list-style: none;
 	display: inline;
 	padding: 0 1%;
