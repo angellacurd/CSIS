@@ -23,7 +23,7 @@ aside { float: right;
 }
 table { border: 3px groove #FF6600;
 	border-radius: 5px;
-	margin-left: 5;
+	margin: 5;
 }
 form { font-family: Verdana, Helvetica, sans-serif;
 	margin-left: 40;
