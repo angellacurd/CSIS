@@ -4,6 +4,28 @@
 <title>STATS</title>
 <meta charset="utf-8">
 <link rel= "stylesheet" type="text/css" href="STATS1.css"/>
+<!--JS-->
+
+<script>
+  Y.use('node', function(Y) {
+    Y.on('domready', function() {
+      var nav = Y.one('#mobile-navigation');
+      if (nav) {
+        Y.on('click', function(e) {
+          if (!e.target.getAttribute('href')) {
+            nav.toggleClass('sqs-mobile-nav-open');
+            Y.one('body').toggleClass('sqs-mobile-nav-open');
+          }
+        }, '#mobile-navigation-label');
+      }
+    });
+  });
+</script>
+        </div></div>
+        <div data-content-field="site-title" class="siteTitle">
+
+          
+	</div>
 </head>
 <body>
 <h1>TYLER CURD - STATS</h1>
@@ -186,27 +208,5 @@
 	</a></center>
 <center><h5>Upcoming Duals and Tournaments - Click on wrestlers</h5></center>
         
-<!--JS-->
-
-<script>
-  Y.use('node', function(Y) {
-    Y.on('domready', function() {
-      var nav = Y.one('#mobile-navigation');
-      if (nav) {
-        Y.on('click', function(e) {
-          if (!e.target.getAttribute('href')) {
-            nav.toggleClass('sqs-mobile-nav-open');
-            Y.one('body').toggleClass('sqs-mobile-nav-open');
-          }
-        }, '#mobile-navigation-label');
-      }
-    });
-  });
-</script>
-        </div></div>
-        <div data-content-field="site-title" class="siteTitle">
-
-          
-	</div>
 </body>
 </html>	
