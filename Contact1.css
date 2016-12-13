@@ -27,7 +27,6 @@ table { border: 3px groove #FF6600;
 form { font-family: Verdana, Helvetica, sans-serif;
 	margin-left: 40;
 	width: 20px;
-	float: left;
 	padding: 30px;
 }
 ul { text-align: center;
