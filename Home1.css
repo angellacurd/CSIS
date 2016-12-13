@@ -9,11 +9,9 @@ h1{ 	color: #FFFFFF;
 	background: #000000;
 }
 footer ul li { 	
-	width: 100%;
 	list-style: none;
 	display: inline;
-	padding: 0 1%;
-	vertical-align:middle;
+	padding: 70px;
 	font-family: Verdana, Helvetica, sans-serif;
 }
 #nav{
@@ -27,7 +25,7 @@ footer ul li {
 	display: inline;
 	color: #FFFFFF;
 	font-weight: bold;
-	padding: 50px;
+	padding: 70px;
 }
 #nav_wrapper ul li:hover{
 	background: #999999;
