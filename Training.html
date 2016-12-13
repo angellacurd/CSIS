@@ -4,6 +4,28 @@
 <title>Training</title>
 <meta charset="utf-8">
 <link rel= "stylesheet" type="text/css" href="Training1.css"/>
+<!--JS-->
+
+<script>
+  Y.use('node', function(Y) {
+    Y.on('domready', function() {
+      var nav = Y.one('#mobile-navigation');
+      if (nav) {
+        Y.on('click', function(e) {
+          if (!e.target.getAttribute('href')) {
+            nav.toggleClass('sqs-mobile-nav-open');
+            Y.one('body').toggleClass('sqs-mobile-nav-open');
+          }
+        }, '#mobile-navigation-label');
+      }
+    });
+  });
+</script>
+        </div></div>
+        <div data-content-field="site-title" class="siteTitle">
+
+          
+	</div>
 </head>
 <body>
 <h1>TYLER CURD - Training</h1>
@@ -46,27 +68,6 @@
 	<a href="http://www.mowestwrestling.com">Follow the MOWEST Championship Wrestling Program here</a>
 	<p>Tyler's 7th grade season, he made a switch to train with Mowest. There he was able to train with some outstanding wrestlers that were closer to his weight. Their experience gave him the extra skills he needed to dominate most of his opponents. Tyler continues to train and compete with Mowest for the Greco and Freestyle seasons. He travels to a variety of National Duals and Tournaments.</p>
 		<img src="MOWEST.jpg" height="224" width="225"></center>
-<!--JS-->
-
-<script>
-  Y.use('node', function(Y) {
-    Y.on('domready', function() {
-      var nav = Y.one('#mobile-navigation');
-      if (nav) {
-        Y.on('click', function(e) {
-          if (!e.target.getAttribute('href')) {
-            nav.toggleClass('sqs-mobile-nav-open');
-            Y.one('body').toggleClass('sqs-mobile-nav-open');
-          }
-        }, '#mobile-navigation-label');
-      }
-    });
-  });
-</script>
-        </div></div>
-        <div data-content-field="site-title" class="siteTitle">
-
-          
-	</div>
+	</main>
 </body>
 </html>	
