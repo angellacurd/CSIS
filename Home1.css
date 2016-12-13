@@ -28,6 +28,7 @@ footer ul li {
 	color: #FFFFFF;
 	font-weight: bold;
 	padding: 30px;
+	width: 100%
 }
 #nav_wrapper ul li:hover{
 	background: #999999;
