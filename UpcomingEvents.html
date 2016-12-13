@@ -4,6 +4,28 @@
 <title>Upcoming Events</title>
 <meta charset="utf-8">
 <link rel= "stylesheet" type="text/css" href="UpcomingEvents1.css"/>
+<!--JS-->
+
+<script>
+  Y.use('node', function(Y) {
+    Y.on('domready', function() {
+      var nav = Y.one('#mobile-navigation');
+      if (nav) {
+        Y.on('click', function(e) {
+          if (!e.target.getAttribute('href')) {
+            nav.toggleClass('sqs-mobile-nav-open');
+            Y.one('body').toggleClass('sqs-mobile-nav-open');
+          }
+        }, '#mobile-navigation-label');
+      }
+    });
+  });
+</script>
+        </div></div>
+        <div data-content-field="site-title" class="siteTitle">
+
+          
+	</div>
 </head>
 <body>
 <h1>TYLER CURD - Upcoming Duals and Tournaments</h1>
@@ -37,28 +59,27 @@
 		</div>
 	</div>
 	
-        
-<!--JS-->
+	
+	<center><h1>Upcoming Duals and Tournaments</h1></center>
+<p>The events below are all for the upcoming 2016 High School Folkstyle season:</p>
+<br>
+<ul>
+	<li>December 15th - Warrensburg High School (Dual) 6PM</li>
+	<li>December 16th/17th - Lee's Summit High School (Tourn.)</li>
+	<li>January 3rd - Oak Grove High School (Dual against Pleasant Hill) 6PM</li>
+	<li>January 7th - Monett High School (Tourn.)</li>
+	<li>January 10th - Odessa High School (Dual) 6PM</li>
+	<li>January 12th - Oak Grove High School (Triangular against Richmond, St.Joe, Benton) 5PM</li>
+	<li>January 13th/14th - Wentworth Military Academy - MRVC Tournament</li>
+	<li>January 17th - Excelsior Springs High School (Dual) 6PM</li>
+	<li>January 20th/21st - Platte County High School (Tourn.)</li>
+	<li>January 24th - Oak Grove High School (Dual against Grain Valley) 6PM</li>
+	<li>January 26th - Oak Grove High School (Dual against Mexico) 6:30PM</li>
+	<li>January 31st - Harrisonville High School (Dual) 6PM</li>
+	<li>February 4th - Oak Grove High School - Panther Classic Tournament</li>
+	<li>February 10th/11th - Districts - TBD</li>
+	<li>February 16th/17th/18th - Mizzou Arena - MSHAA STATE</li>
+</ul>
 
-<script>
-  Y.use('node', function(Y) {
-    Y.on('domready', function() {
-      var nav = Y.one('#mobile-navigation');
-      if (nav) {
-        Y.on('click', function(e) {
-          if (!e.target.getAttribute('href')) {
-            nav.toggleClass('sqs-mobile-nav-open');
-            Y.one('body').toggleClass('sqs-mobile-nav-open');
-          }
-        }, '#mobile-navigation-label');
-      }
-    });
-  });
-</script>
-        </div></div>
-        <div data-content-field="site-title" class="siteTitle">
-
-          
-	</div>
 </body>
 </html>
