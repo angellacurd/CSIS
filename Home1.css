@@ -8,12 +8,15 @@ h1{ 	color: #FFFFFF;
 	text-align: center;
 	background: #000000;
 }
-#footer{ 	
+#footer { 	
 	list-style: none;
 	display: inline;
 	padding: 70px;			
 	font-weight: bold;
 	font-family: Verdana, Helvetica, sans-serif;
+	position: fixed!important;
+	position:absolute;
+	width:100%
 }
 #nav{
 	width: 100%;
