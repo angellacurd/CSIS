@@ -13,7 +13,8 @@ h1{ 	color: #FFFFFF;
 #nav_wrapper1 ul li {
 	list-style: none;
 	display: inline;
-	padding: 30px;
+	padding: 0 1%;
+	vertical-align:middle
 }
 #nav{
 	width: 100%;
