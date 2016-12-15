@@ -5,14 +5,19 @@ h1{ color: #FFFFFF;
 	font-size: 2em;
 	text-align: center;
 }
+/* Note: Make HTML 5 elements block-level for consisten styling */
+header, nav, article, footer, address { display:block;}
+
+*/ Sections P/
+header, nav, article, footer, address {width:100%; clear:both; }
 #nav_wrapper ul li {
 	list-style: none;
 	display: inline;
 	color: #FFFFFF;
 	font-weight: bold;
-	padding: 30px;
+	padding: 10px;
 }
-#nav_wrapper ul li:hover{
+#nav_wrapper ul li {
 	background: #999999;
 	transition:all 0.45s;
 }
