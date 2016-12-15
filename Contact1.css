@@ -4,7 +4,6 @@ body { background-color: #CCCCCC;
 h1{ color: #FFFFFF;
 	font-family: Verdana, Helvetica, sans-serif;
 	font-size: 2em;
-	text-align: center;
 }
 /* Note: Make HTML 5 elements block-level for consisten styling */
 header, nav, article, footer, address { display:block;}
