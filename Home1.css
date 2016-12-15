@@ -25,6 +25,7 @@ header, nav, article, footer, address {width:100%; clear:both; }
 	color: #FFFFFF;
 	font-weight: bold;
 	padding: 10px;
+	width: 100%;
 }
 #nav_wrapper ul li {
 	background: #999999;
