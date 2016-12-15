@@ -24,12 +24,6 @@ form { font-family: Verdana, Helvetica, sans-serif;
 	padding: 10px;
 	float: left;
 }
-ul { text-align: center;
-	list-style-type: none;
-}
-.news { color: #000000;
-	text-align: center;
-}
 #nav_wrapper ul li {
 	list-style: none;
 	display: inline;
