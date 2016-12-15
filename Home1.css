@@ -8,19 +8,17 @@ h1{ 	color: #FFFFFF;
 	text-align: center;
 	background: #000000;
 }
-#footer { 
-	display: inline;
-	padding: 70px;			
+footer { 
+	text-align: center;
+	display: block;
+	list-style: none;
+	list-style-type: none;
+	list-style-position:initial;
+	list-style-image: initial;
+	letter-spacing: .2em;
+	padding: 1em;			
 	font-weight: bold;
 	font-family: Verdana, Helvetica, sans-serif;
-	position: fixed!important;
-	position:absolute;
-	width:100%
-}
-footer ul li {
-	width: 100%;
-	display: inline;
-	list-style: none;
 }	
 #nav{
 	width: 100%;
