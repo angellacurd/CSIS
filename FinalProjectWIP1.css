@@ -19,9 +19,9 @@ body{
 	display: inline;
 	color: #FFFFFF;
 	font-weight: bold;
-	padding: 35px;
+	padding: 10px;
 }
-#nav_wrapper ul li:hover{
+#nav_wrapper ul li {
 	background: #999999;
 	transition:all 0.45s;
 }
