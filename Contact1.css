@@ -20,8 +20,8 @@ table { border: 3px groove #FF6600;
 	border-radius: 5px;
 }
 form { font-family: Verdana, Helvetica, sans-serif;
-	margin-left: 40;
-	width: 20px;
+	width: 0 1.5%;
+	width: 50px;
 	padding: 10px;
 	float: left;
 }
