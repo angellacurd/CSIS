@@ -1,0 +1,34 @@
+body {  background-color: #CCCCCC;
+        margin: 10;
+}
+h1 {    color: #FFFFFF;
+        font-family: verdana, Helvetica, sans-serif;
+        font-size: 2em;
+}
+/* Note: Make HTML 5 elements block-level for consistent styling */
+header, nav, article, footer, address { display:block;}
+
+*/ Sections P/
+header, nav, article, footer, address {width:100%; clear:both; }
+table { border: 3px groove #FF6600;
+        border-radius: 5px;
+}
+form {  font-family: Verdana, Helvetica, sans-serif;
+}
+#nav_wrapper ul li {
+        list-style: none;
+        display: inline;
+        color: #FFFFFF;
+        font-weight: bold;
+        padding: 10px;
+}
+#nav_wrapper ul li {
+        background: #999999;
+        transitional:all 0.45s;
+}
+#nav_wrapper a{
+        color: white;
+        text-decoration: none;
+}
+a {     color: white;
+}
