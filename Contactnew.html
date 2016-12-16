@@ -1,84 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang= "en">
 <head>
-<title>Academics</title>
+<title>Contact</title>
 <meta charset="utf-8">
-<link rel= "stylesheet" type="text/css" href="Contactnew1.css"/>
+<link rel= "stylesheet" type="text/css" href="Contact1.css"/>
 <!--JS-->
 
 <script>
   Y.use('node', function(Y) {
-   Y.on('domready', function() {
-    var nav = Y.one('#mobile-navigation');      
-     if (nav) {
-      Y.on('click', function(e) {
-       if (!e.target.getAttribute('href')) {
-        nav.toggleClass('sqs-mobile-nav-open');
-         Y.one('body').toggleClass('sqs-mobile-nav-open');
-        }   
-       }, '#mobile-navigation-label');      
-      }    
-     });  
+    Y.on('domready', function() {
+      var nav = Y.one('#mobile-navigation');
+      if (nav) {
+        Y.on('click', function(e) {
+          if (!e.target.getAttribute('href')) {
+            nav.toggleClass('sqs-mobile-nav-open');
+            Y.one('body').toggleClass('sqs-mobile-nav-open');
+          }
+        }, '#mobile-navigation-label');
+      }
     });
-  </script>       
-          </div></div>        
-          <div data-content-field="site-title" class="siteTitle">
+  });
+</script>
+        </div></div>
+        <div data-content-field="site-title" class="siteTitle">
+
           
-          
-          </div>
-</head>   
+	</div>
+</head>
 <body>
-<h1>TYLER CURD - Academics</h1>
-        <center>
-        <div id="nav">
-        
-          <div id="nav_wrapper">
-          
-               <ul>
-               
-                      <li><a href="Home.html">Home</a></li>
-                      <li><a href="STATS.html">STATS</a></li>
-                      <li><a href="Training.html">Training</a></li>
-                      <li><a href="Academics.html">Academics</a></li>
-                      <li><a href="VideosandPictures.html">Videos and Pictures</a></li>
-                      <li><a href="Contact.html">Contact</a></li>
-                      <li class=""><a href="http://instagram.com/b3a5t0099" target="_blank">
-                      <img src="https://angellacurd.github.io/CSIS/InstagramButton.jpg"" alt="instagram"
-                              height="40" width="40">
-                              </a></li>
-                      <li class=""><a href="https://twitter.com/b3a5t0099" target="_blank"> 
-                      <img src="https://angellacurd.github.io/CSIS/TwitterButton.jpg"" alt="Twitter"
-                              height="40" width="40">
-                              </a></li>
-                     <li class=""><a href="http://www.facebook.com/tyler.curd.7" target="_blank">
-                     <img src="https://angellacurd.github.io/CSIS/FacebookButton.png" alt="Facebook"
-                              height="40" width="40">
-                              </a></li>
-                              
-                </ul>
-               </div>
-          </div>
-       </div>
-       </center>
-       <br>
-<center><h3>Contact Us</h3><center/>
-  <aside role="complementary">
-    <table border="2" width="400" height="200" align="center">
-      <tr>
-        <th>Contact</th>
-        <th>Phone Number</th>
-      </tr>
-      <tr>
-        <td>Tyler Curd</td>
-        <td>(816) 606-9554</td>
-      </tr>
-      <tr>
-        <td>Mark Curd</td>
-        <td>(816) 726-6302</td>
-      </tr>
-      <tr>
-        <td>Angella Curd</td>
-        <td>(816) 726-6358</td>
-      </tr>
-    </table>
-  </aside></center>
+	<center><h1>TYLER CURD - Contact</h1></center>
+	<center>				
+	<div id="nav">
+	
+	  <div id="nav_wrapper">
+				
+		<ul>
+			 
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="STATS.html">STATS</a></li>
+			<li><a href="Training.html">Training</a></li>
+			<li><a href="Academics.html">Academics</a></li>
+			<li><a href="VideosandPictures.html">Videos and Pictures</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+			<li class=""><a href="http://instagram.com/b3a5t0099" target="_blank">
+          			<img src="https://angellacurd.github.io/CSIS/InstagramButton.jpg"" alt="instagram" 
+					height="40" width="40">
+					</a></li>
+			<li class=""><a href="https://twitter.com/b3a5t0099" target="_blank">
+           			<img src="https://angellacurd.github.io/CSIS/TwitterButton.jpg"" alt="Twitter"
+					height="40" width="40">
+          			</a></li>
+			<li class=""><a href="http://www.facebook.com/tyler.curd.7" target="_blank">
+            		<img src="https://angellacurd.github.io/CSIS/FacebookButton.png" alt="Facebook"
+					height="40" width="40">
+          			</a></li>
+						
+		 </ul>
+		</div>
+	</div>
+	</center><br>
+	<center><h3>SEND US A MESSAGE</h3><center/>
+	<table border="2" width="400" height="200" align="center">
+	<tr>
+		<th>Contact</th>
+		<th>Phone Number</th>
+	</tr>
+	<tr>
+		<td>Tyler Curd</td>
+		<td>(816) 606-9554</td>
+	</tr>
+	<tr>
+		<td>Mark Curd</td>
+		<td>(816) 726-6302</td>
+	</tr>
+	<tr>
+		<td>Angella Curd</td>
+		<td>(816) 726-6358</td>
+	</tr>
+	</table>
+  </center>
+	
+<center><form name="htmlform" method="post" action="html_form_send.php">
+<table width="450px" border="2">
+<tr>
+ <td valign="top">
+  <label for="first_name">First Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top"">
+  <label for="last_name">Last Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">Email Address *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone">Telephone Number</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="message">Message *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+ 
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+					  <center><input type="submit" value="Submit"></center>
+</td>
+</tr>
+</table>
+                                                       </form></center>
+										    
+<br>
+<br>
+<center><img src="family.jpg" width="1000" height="600" alt="Family"></center>
+<br>
+								    <h1><center><a href="mailto:tylercurd99@yahoo.com">tylercurd99@yahoo.com</a></center></h1>
+       
+</body>
+</html>
