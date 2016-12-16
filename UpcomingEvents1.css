@@ -30,9 +30,6 @@ body{
 	text-decoration: none;
 }
 ul {list-style-image: url(paw2.jpg);
-	padding: 0;
-	display: inline-block;
-	z-index: 99;
 }
 li {
 	float: left;
