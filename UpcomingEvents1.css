@@ -31,9 +31,3 @@ body{
 }
 ul {list-style-image: url(paw2.jpg);
 }
-li {
-	float: left;
-	width: 16px;
-	height: 16px;
-	margin: 5px;
-}
