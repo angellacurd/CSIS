@@ -30,4 +30,6 @@ body{
 	text-decoration: none;
 }
 ul {list-style-image: url(paw2.jpg);
+	position: absolute;
+	left: 100px;
 }
